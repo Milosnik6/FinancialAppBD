@@ -101,6 +101,14 @@
                             Background="#152d24"
                             Foreground="#ffd700"
                             BorderThickness="1"/>
+                        <Button Content="Logout" Click="Logout_Click"
+                            Margin="5"
+                            Width="200"
+                            Height="30"
+                            FontSize="12"
+                            Foreground="#152d24"
+                            Background="#ffd700"
+                            BorderThickness="1"/>
                     </StackPanel>
 
                     <Border Grid.Column="1" Background="#e7e7d0" BorderThickness="1" Margin="10,10,0,0">

@@ -70,6 +70,13 @@ namespace financialApp.Views.Admin
             }
         }
 
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            var loginWindow = new LoginWindow(_userService);
+            loginWindow.Show();
+            this.Close();
+        }
+
         private void UsernameTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
