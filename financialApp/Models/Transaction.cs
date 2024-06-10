@@ -17,6 +17,6 @@ public class Transaction
     public int CategoryID { get; set; }
     public string CategoryName { get; set; }
 
-    public User User { get; set; }
+    public User User { get; set; }//gowno
     public ICollection<Label> Labels { get; set; }
 }
