@@ -41,16 +41,16 @@
                     Width="200" 
                     Height="40" 
                     FontSize="16"
-                    Background="#152d24" 
-                    Foreground="#ffd700" 
+                    Foreground="#152d24" 
+                    Background="#ffd700" 
                     BorderThickness="1" />
                 <Button Content="Register" 
                     Click="Register_Click" 
                     Margin="5" Width="200" 
                     Height="40" 
                     FontSize="16"
-                    Background="#ffd700" 
-                    Foreground="#152d24" 
+                    Foreground="#ffd700" 
+                    Background="#152d24" 
                     BorderBrush="#c0c0c0" 
                     BorderThickness="1" />
             </StackPanel>

@@ -46,5 +46,11 @@ namespace financialApp.Views
                 MessageBox.Show($"An error occurred during registration: {ex.Message}\n\n{ex.InnerException?.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+        private void Login_Click(object sender, RoutedEventArgs e)
+        {
+            var loginWindow = new LoginWindow(_userService);
+            loginWindow.Show();
+            this.Close();
+        }
     }
 }
