@@ -69,5 +69,10 @@ namespace financialApp.Views.Admin
                 MessageBox.Show("Please select a user to delete.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+
+        private void UsernameTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
